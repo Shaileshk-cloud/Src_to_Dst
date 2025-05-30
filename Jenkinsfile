@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/ShashiMadari/MavenSurfire.git'
+                git branch: 'master', url: 'https://github.com/Shaileshk-cloud/Src_to_Dst.git'
             }
         }
 
